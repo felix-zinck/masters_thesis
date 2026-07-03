@@ -11,4 +11,4 @@ Socio-economic data was derived from the latest German census (Zensus 2022) usin
 Feel free to use or adapt this code if you are interested in similar topics or if it might help you in your own work.
 
 All the best,  
-Feli
+Felix
