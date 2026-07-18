@@ -12,16 +12,15 @@ The R workflow scripts are provided in the r_scripts folder and are numbered acc
 
 The repository documents the complete analytical workflow used in this study. Workflows 1–3 and 5 are included for transparency and documentation of the data-preparation process but are not required to reproduce the reported results. The analyses can be reproduced using the datasets supplied in the study_data folder together with Workflows 4, 6, and 7.
 
-Workflow 1 documents the extraction of dates for hot days in Berlin based on observations from the Berlin-Tempelhof weather station. 
+Script 1 documents the extraction of dates for hot days in Berlin based on observations from the Berlin-Tempelhof weather station. 
 
-Workflow 2 documents the preparation of the analytical grid using the Germany-wide Zensus 2022 grid geometry. This source dataset is not included because of its large file size.
+Script 2 documents the preparation of the analytical grid using the Germany-wide Zensus 2022 grid geometry. This source dataset is not included because of its large file size.
 
-Workflows 3 and 5 are provided to document the generation and evaluation of candidate land surface temperature rasters, rather than to enable a direct reproduction. Workflow 3 requires an individual Google Earth Engine account, local authentication through rgee::ee_Authenticate(), and a Google Cloud project enabled for Earth Engine. The produced candidate land surface temperature and observation-count rasters are not included in the repository because of their combined file size.
+The scripts 3 and 5 are provided to document the generation and evaluation of candidate land surface temperature rasters, rather than to enable a direct reproduction. Workflow 3 requires an individual Google Earth Engine account, local authentication through rgee::ee_Authenticate(), and a Google Cloud project enabled for Earth Engine. The produced candidate land surface temperature and observation-count rasters required for workflow 5 are not included in the repository because of their combined file size.
 
-To reproduce the results reported in the thesis, open 'master_thesis.Rproj' in RStudio and run Workflows 4, 6, and 7 in numerical order from the project root. All file paths are specified relative to the project directory.
+To reproduce the results reported in the thesis, open 'master_thesis.Rproj' in RStudio, install the required R packages, and run the scripts 4, 6, and 7 in numerical order from the project root. All file paths are specified relative to the project directory.
 
 The required input datasets are provided in the 'study_data' folder. These include the selected final land surface temperature raster, the prepared Berlin 100 m grid, the Berlin study-area boundary, and the Zensus 2022 CSV files used in the analysis.
-
 
 Feel free to use or adapt the code or workflow if you are interested in similar topics or if it might help you in your own work.
 
