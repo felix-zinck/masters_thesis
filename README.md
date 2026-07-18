@@ -18,7 +18,10 @@ Workflow 2 documents the preparation of the analytical grid using the Germany-wi
 
 Workflows 3 and 5 are provided to document the generation and evaluation of candidate land surface temperature rasters, rather than to enable a direct reproduction. Workflow 3 requires an individual Google Earth Engine account, local authentication through rgee::ee_Authenticate(), and a Google Cloud project enabled for Earth Engine. The produced candidate land surface temperature and observation-count rasters are not included in the repository because of their combined file size.
 
-To reproduce the results reported in the thesis, use the data provided in the study_data folder and run Workflows 4, 6, and 7 in numerical order. The supplied datasets include the selected final land surface temperature raster, the prepared Berlin 100 m grid, the Berlin study area, and the Zensus 2022 CSV files required for the analysis.
+To reproduce the results reported in the thesis, open 'master_thesis.Rproj' in RStudio and run Workflows 4, 6, and 7 in numerical order from the project root. All file paths are specified relative to the project directory.
+
+The required input datasets are provided in the 'study_data' folder. These include the selected final land surface temperature raster, the prepared Berlin 100 m grid, the Berlin study-area boundary, and the Zensus 2022 CSV files used in the analysis.
+
 
 Feel free to use or adapt the code or workflow if you are interested in similar topics or if it might help you in your own work.
 
