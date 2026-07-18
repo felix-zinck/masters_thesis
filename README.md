@@ -20,7 +20,7 @@ The scripts 3 and 5 are provided to document the generation and evaluation of ca
 
 To reproduce the results reported in the thesis, open 'master_thesis.Rproj' in RStudio, install the required R packages, and run the scripts 4, 6, and 7 in numerical order from the project root. All file paths are specified relative to the project directory.
 
-The required input datasets are provided in the 'study_data' folder. These include the selected final land surface temperature raster, the prepared Berlin 100 m grid, the Berlin study-area boundary, and the Zensus 2022 CSV files used in the analysis.
+The required input datasets are provided in the 'study_data' folder. These include the selected final land surface temperature raster, the prepared Berlin 100 m grid, the Berlin study-area boundary, and the Zensus 2022 CSV files used in the analysis. The CSV files included in this repository were spatially restricted to the Berlin study area to reduce file size. The original nationwide datasets are available from the official Zensus 2022 data portal.
 
 Feel free to use or adapt the code or workflow if you are interested in similar topics or if it might help you in your own work.
 
